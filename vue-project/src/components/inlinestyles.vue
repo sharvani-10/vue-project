@@ -14,7 +14,7 @@
     <div v-bind:style="[baseStyleobject,successStyleobject]">Sucess style</div>
      </template>
     
-     <script>
+  <script>
     export default{
       name:'App',
       data(){

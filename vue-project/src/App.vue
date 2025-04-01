@@ -1,14 +1,15 @@
 <template>
-  <button v-on:click = "changeName", increment()">change name</button>"
+  <binding/>
 </template>
     
     <script>
+    
+    
+import binding from './components/binding.vue';
        export default {
         name: 'App',
-        data(){
-          return{
-            
-          }
+        components: {
+          binding,
         }
        }
     </script>
